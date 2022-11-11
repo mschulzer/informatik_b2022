@@ -1,3 +1,5 @@
+from projekt.models import Student, Report, StudentAdd,
+
 def add_report(request):
     if request.method == 'POST':
         form = ReportAdd(request.POST)
